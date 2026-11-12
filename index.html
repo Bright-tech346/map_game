@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>點亮地圖 · Map Light-Up Games</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{min-height:100vh;background:radial-gradient(ellipse at 50% 30%,#13213a 0%,#0a111c 70%);color:#e9eef6;font-family:-apple-system,"PingFang TC","Microsoft JhengHei","Noto Sans CJK TC",sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px}
+h1{font-family:"Songti TC","Noto Serif CJK TC",serif;font-size:40px;letter-spacing:.15em;font-weight:900}
+.sub{color:#8496b0;font-size:13px;letter-spacing:.2em;text-transform:uppercase;margin-top:6px}
+.cards{display:flex;gap:20px;margin-top:40px;flex-wrap:wrap;justify-content:center}
+a.card{width:300px;padding:28px;border-radius:16px;background:#101a29;border:1px solid #22324a;color:inherit;text-decoration:none;transition:transform .2s,border-color .2s}
+a.card:hover{transform:translateY(-4px);border-color:#ffb240}
+.card h2{font-size:26px;color:#ffb240}
+.card p{color:#8496b0;font-size:14px;line-height:1.7;margin-top:10px}
+.card ul{list-style:none;margin-top:14px;font-size:13px;line-height:1.9}
+.card li::before{content:"▸ ";color:#ffb240}
+footer{margin-top:40px;color:#4f6888;font-size:12px}
+</style>
+</head>
+<body>
+<h1>點亮地圖</h1>
+<div class="sub">Map light-up games</div>
+<div class="cards">
+  <a class="card" href="china/">
+    <h2>點亮中國</h2>
+    <p>34 個省級行政區。輸入省份名稱，把地圖一塊塊點亮。</p>
+    <ul><li>自由模式</li><li>A → B 路線挑戰</li><li>A → B → C 中途站挑戰</li></ul>
+  </a>
+  <a class="card" href="japan/">
+    <h2>點亮日本</h2>
+    <p>47 個都道府縣。支援漢字、中文、假名與羅馬拼音輸入。</p>
+    <ul><li>自由模式</li><li>從 A 到 B 路線挑戰</li><li>猜猜我是誰（看鄰縣猜答案）</li><li>🔍 提示鏡</li></ul>
+  </a>
+</div>
+<footer>每個遊戲都是單一 HTML 檔，不需要網路或安裝。</footer>
+</body>
+</html>

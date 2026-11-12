@@ -2,6 +2,8 @@
 
 Two browser geography games. Type a place name and it lights up on the map.
 
+### ▶ [Play now: bright-tech346.github.io/map_game](https://bright-tech346.github.io/map_game/)
+
 | Game | Regions | Modes |
 |---|---|---|
 | [點亮中國](china/) | 34 provincial-level divisions | Free play · A → B route · A → B → C route with a waypoint |
